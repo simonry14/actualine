@@ -233,10 +233,34 @@
   </div>
   <p class="team-intro">Our practice is built on the experience and discipline of <em>qualified architects, engineers, project managers, and quantity surveyors</em> — registered professionals who bring years of fieldwork to every assignment.</p>
   <div class="team-grid">
-    <div class="team-card"><div class="team-avatar">A</div><h4>Architects</h4><div class="team-role">— Design Studio</div><p class="team-bio">Registered architects leading concept development, schematic design, and detailed documentation across residential, commercial, and institutional briefs.</p></div>
-    <div class="team-card"><div class="team-avatar">E</div><h4>Engineers</h4><div class="team-role">— Civil &amp; Structural</div><p class="team-bio">Engineering professionals delivering structural analysis, services design, and on-site supervision aligned with Ugandan and international codes.</p></div>
-    <div class="team-card"><div class="team-avatar">Q</div><h4>Quantity Surveyors</h4><div class="team-role">— Cost &amp; Contracts</div><p class="team-bio">Cost planners and contract specialists handling estimates, BoQs, valuations, and the financial discipline that keeps projects on budget.</p></div>
-    <div class="team-card"><div class="team-avatar">P</div><h4>Project Managers</h4><div class="team-role">— Programme &amp; Delivery</div><p class="team-bio">Project leadership coordinating consultants, contractors, and clients — owning programme, risk, and quality from inception to commissioning.</p></div>
+    <div class="team-card" data-member="david" role="button" tabindex="0">
+      <div class="team-avatar"><img src="https://images.unsplash.com/photo-1642257834579-eee89ff3e9fd?w=320&q=80&auto=format&fit=crop&crop=faces" alt="David Ssemakula"></div>
+      <h4>David Ssemakula</h4>
+      <div class="team-role">— Principal Architect</div>
+      <p class="team-bio">Heads the design studio — leading architectural output from concept through detailed documentation across the full portfolio.</p>
+      <div class="team-card-cta">View profile →</div>
+    </div>
+    <div class="team-card" data-member="james" role="button" tabindex="0">
+      <div class="team-avatar"><img src="https://images.unsplash.com/photo-1668752600261-e56e7f3780b6?w=320&q=80&auto=format&fit=crop&crop=faces" alt="James Oryema"></div>
+      <h4>James Oryema</h4>
+      <div class="team-role">— Structural Engineer</div>
+      <p class="team-bio">Delivers structural designs from foundations to roof — rigorous analysis combined with site-level pragmatism across Uganda's built environment.</p>
+      <div class="team-card-cta">View profile →</div>
+    </div>
+    <div class="team-card" data-member="grace" role="button" tabindex="0">
+      <div class="team-avatar"><img src="https://images.unsplash.com/photo-1758613654538-5f353b10f93e?w=320&q=80&auto=format&fit=crop&crop=faces" alt="Grace Akello"></div>
+      <h4>Grace Akello</h4>
+      <div class="team-role">— Senior Quantity Surveyor</div>
+      <p class="team-bio">Manages cost and contract functions — estimates, Bills of Quantities, and tender documents that keep projects within budget.</p>
+      <div class="team-card-cta">View profile →</div>
+    </div>
+    <div class="team-card" data-member="sarah" role="button" tabindex="0">
+      <div class="team-avatar"><img src="https://images.unsplash.com/photo-1739300293504-234817eead52?w=320&q=80&auto=format&fit=crop&crop=faces" alt="Sarah Nakato"></div>
+      <h4>Sarah Nakato</h4>
+      <div class="team-role">— Senior Project Manager</div>
+      <p class="team-bio">Leads project delivery — coordinating architects, engineers, and contractors from inception to commissioning across Uganda.</p>
+      <div class="team-card-cta">View profile →</div>
+    </div>
   </div>
 </section>
 
@@ -329,6 +353,13 @@
     <div><a href="#">PRIVACY</a><a href="#">TERMS</a><a href="#">SITEMAP</a></div>
   </div>
 </footer>
+<div class="cv-modal" id="cvModal" role="dialog" aria-modal="true" aria-label="Team member profile" hidden>
+  <button class="cv-modal-backdrop" aria-label="Close"></button>
+  <div class="cv-modal-box">
+    <button class="cv-modal-close" aria-label="Close profile">&#x2715;</button>
+    <div class="cv-modal-inner" id="cvModalInner"></div>
+  </div>
+</div>
 <script src="script.js"></script>
 </body>
 </html>
